@@ -60,7 +60,7 @@ GameObject:
   - component: {fileID: 224470704902773206}
   - component: {fileID: 114060152830075012}
   - component: {fileID: 114790591871741226}
-  - component: {fileID: 114970822978972604}
+  - component: {fileID: 114059789768071944}
   m_Layer: 0
   m_Name: QualityMeter
   m_TagString: Untagged
@@ -236,7 +236,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4985314822018972
 Transform:
   m_ObjectHideFlags: 1
@@ -273,6 +273,21 @@ MonoBehaviour:
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 1
   m_ChildControlHeight: 1
+--- !u!114 &114059789768071944
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1136658612059398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d9740673557a45eb8c4e66cf5580e3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LowMedHigh:
+  - {fileID: 114481626401502858}
+  - {fileID: 114293944671111536}
+  - {fileID: 114901056020473096}
 --- !u!114 &114060152830075012
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -496,7 +511,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1095599178594076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b45749959b5da94cb574d5ca8fa05c9, type: 3}
+  m_Script: {fileID: 11500000, guid: 6f293efa61d5246cdb61a58b1c622301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &114609637507421422
@@ -600,7 +615,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 05a8ed3e38b63bf439be3daf61f4f95d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4e518a9ff4a234a59bcc78d88d6814a1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -727,21 +742,6 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
---- !u!114 &114970822978972604
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1136658612059398}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8f8e69b98c18478295edc84be226fe1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LowMedHigh:
-  - {fileID: 114481626401502858}
-  - {fileID: 114293944671111536}
-  - {fileID: 114901056020473096}
 --- !u!222 &222018602522032356
 CanvasRenderer:
   m_ObjectHideFlags: 1
