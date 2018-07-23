@@ -587,6 +587,36 @@ Prefab:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 224470704902773206, guid: 62111e53f63eb44619f4cdb496fc87a7,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224470704902773206, guid: 62111e53f63eb44619f4cdb496fc87a7,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224470704902773206, guid: 62111e53f63eb44619f4cdb496fc87a7,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224470704902773206, guid: 62111e53f63eb44619f4cdb496fc87a7,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224470704902773206, guid: 62111e53f63eb44619f4cdb496fc87a7,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224470704902773206, guid: 62111e53f63eb44619f4cdb496fc87a7,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 62111e53f63eb44619f4cdb496fc87a7, type: 2}
   m_IsPrefabParent: 0
@@ -633,22 +663,16 @@ Prefab:
         type: 2}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1775827027}
+      objectReference: {fileID: 1354568532}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 686ac37c7ce90474098cb69a13036c2d, type: 2}
   m_IsPrefabParent: 0
---- !u!114 &1713781817 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114471088174885054, guid: 6324aaaaba8c64aa1806ed3b13d56715,
-    type: 2}
-  m_PrefabInternal: {fileID: 2012287888}
-  m_Script: {fileID: 11500000, guid: 6744ce18fe6964ebf9a809799e5b0e4b, type: 3}
---- !u!43 &1775827027
+--- !u!43 &1354568532
 Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: ImageTargetMesh26930
+  m_Name: ImageTargetMesh-59260
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -789,6 +813,12 @@ Mesh:
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshOptimized: 0
+--- !u!114 &1713781817 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114471088174885054, guid: 6324aaaaba8c64aa1806ed3b13d56715,
+    type: 2}
+  m_PrefabInternal: {fileID: 2012287888}
+  m_Script: {fileID: 11500000, guid: 6744ce18fe6964ebf9a809799e5b0e4b, type: 3}
 --- !u!1001 &1776272181
 Prefab:
   m_ObjectHideFlags: 0
